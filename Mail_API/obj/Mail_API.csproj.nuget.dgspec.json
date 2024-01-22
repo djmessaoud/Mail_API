@@ -1,0 +1,86 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/sp3nc3r/RiderProjects/Mail_API/Mail_API/Mail_API.csproj": {}
+  },
+  "projects": {
+    "/home/sp3nc3r/RiderProjects/Mail_API/Mail_API/Mail_API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/sp3nc3r/RiderProjects/Mail_API/Mail_API/Mail_API.csproj",
+        "projectName": "Mail_API",
+        "projectPath": "/home/sp3nc3r/RiderProjects/Mail_API/Mail_API/Mail_API.csproj",
+        "packagesPath": "/home/sp3nc3r/.nuget/packages/",
+        "outputPath": "/home/sp3nc3r/RiderProjects/Mail_API/Mail_API/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/sp3nc3r/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.1.28, )"
+            },
+            "MailKit": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.3.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/sp3nc3r/.dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
